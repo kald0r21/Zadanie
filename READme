@@ -1,16 +1,14 @@
 Na podstawie materiału wideo przedstawiającego ruch drogowy oraz danych z oznaczonymi obiektami (samochodami) w formacie JSON:
 
-Zbuduj system śledzenia obiektów, który:
+1. Popraw jakość bounding boxów (wygładzenie, dopasowanie, filtracja),
 
-- wyświetla bounding boxy na pojazdach w nagraniu,
+2. Zaimplementuj model uczenia maszynowego, który:
 
-- przypisuje unikalne ID do każdego pojazdu,
+    - odróżnia różne klasy pojazdów (np. samochód, motocykl, bus, ciężarówka),
 
-- wykrywa i zlicza pojazdy, które przekroczyły zadaną linię (np. wirtualny próg na drodze),
+    - klasyfikuje każdy wykryty obiekt,
 
-- eksportuje wyniki do pliku .csv (frame, id, class, bbox, crossed_line),
-
-- generuje wynikowy film .mp4 z naniesionymi informacjami.
+    - wyświetla etykiety na wideo.
 
 
 Instalacja bibliotek :
