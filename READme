@@ -11,6 +11,9 @@ Na podstawie materiału wideo przedstawiającego ruch drogowy oraz danych z ozna
     - wyświetla etykiety na wideo.
 
 
-Instalacja bibliotek :
+Instalacje
 
+python -m venv .venv
+call .venv\Scripts\activate
+pip install --upgrade pip
 pip install -r requirements.txt
