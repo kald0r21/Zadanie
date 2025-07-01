@@ -2,9 +2,9 @@ Na podstawie materiału wideo przedstawiającego ruch drogowy oraz danych z ozna
 
 1. Popraw jakość bounding boxów (wygładzenie, dopasowanie, filtracja),
 
-2. Zaimplementuj model uczenia maszynowego, który:
+2. Zaimplementuj dowolny model uczenia maszynowego, który:
 
-    - odróżnia różne klasy pojazdów (np. samochód, motocykl, bus, ciężarówka),
+    - odróżnia różne klasy pojazdów (np. samochód osobowy, samochód dostawczy),
 
     - klasyfikuje każdy wykryty obiekt,
 
