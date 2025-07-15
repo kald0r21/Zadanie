@@ -1,14 +1,17 @@
 Na podstawie materiału wideo przedstawiającego ruch drogowy oraz danych z oznaczonymi obiektami (samochodami) w formacie JSON:
 
-1. Popraw jakość bounding boxów (wygładzenie, dopasowanie, filtracja),
+1. Popraw jakość bounding boxów:
+
+ - poprawne zliczanie samochodów przejeżdżających ulicą,
+ - poprawne pozycjonowanie boundingboxów na samochodach.
+
+
+* zadanie dodatkowe
 
 2. Zaimplementuj dowolny model uczenia maszynowego, który:
 
     - odróżnia różne klasy pojazdów (np. samochód osobowy, samochód dostawczy),
-
     - klasyfikuje każdy wykryty obiekt,
-
-    - wyświetla etykiety na wideo.
 
 
 Instalacje
